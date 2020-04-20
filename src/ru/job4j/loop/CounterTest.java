@@ -15,7 +15,7 @@ public class CounterTest {
     }
 
     @Test
-    public void whenSumNumbersFromOneToTenThenThirty() {
+    public void whenSumNumbersFromOneToTenThenFiftyFive() {
         int rsl = Counter.sum(1, 10);
         int expected = 55;
         assertThat(rsl, is(expected));
