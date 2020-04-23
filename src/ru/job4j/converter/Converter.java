@@ -9,9 +9,10 @@ public class Converter {
 
     /**
      * Method rubleToEuro.
-     * @param value Original amount in rubles.
+     * @param value Amount in rubles.
      * @return Received amount in euros.
      */
+
     public static int rubleToEuro(int value) {
         int rsl = value / 70;
         return rsl;
@@ -19,9 +20,10 @@ public class Converter {
 
     /**
      * Method rubleToDollar.
-     * @param value Original amount in rubles.
+     * @param value Amount in rubles.
      * @return Received amount in dollars.
      */
+
     public static int rubleToDollar(int value) {
         int rsl = value / 60;
         return rsl;
