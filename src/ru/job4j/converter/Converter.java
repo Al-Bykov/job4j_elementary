@@ -1,16 +1,36 @@
 package ru.job4j.converter;
 
+/**
+ * Конвертер рублей в евро и доллары по заданному курсу
+ * @author Aleksandr Bykov
+ */
+
 public class Converter {
 
+    /**
+     * Method rubleToEuro.
+     * @param value Original amount in rubles.
+     * @return Received amount in euros.
+     */
     public static int rubleToEuro(int value) {
         int rsl = value / 70;
         return rsl;
     }
 
+    /**
+     * Method rubleToDollar.
+     * @param value Original amount in rubles.
+     * @return Received amount in dollars.
+     */
     public static int rubleToDollar(int value) {
         int rsl = value / 60;
         return rsl;
     }
+
+    /**
+     * Main.
+     * @param args - args.
+     */
 
     public static void main(String[] args) {
 
