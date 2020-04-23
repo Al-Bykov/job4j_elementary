@@ -6,7 +6,7 @@ public class Mortgage {
         double debt = amount;
         while ((debt + percent) >= salary) {
             year++;
-            debt = (amount + percent) - salary;
+            debt = debt + percent - salary;
         }
         return year;
     }
