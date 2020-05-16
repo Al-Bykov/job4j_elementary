@@ -48,4 +48,10 @@ public class ThreeMaxTest {
         int rsl = ThreeMax.max(1, 100, 100);
         assertThat(rsl, is(100));
     }
+
+    @Test
+    public void firstMaxAgain() {
+        int rsl = ThreeMax.max(30, 1, 10);
+        assertThat(rsl, is(30));
+    }
 }
